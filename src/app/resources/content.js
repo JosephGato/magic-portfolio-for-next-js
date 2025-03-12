@@ -1,15 +1,15 @@
 import { InlineCode } from "@/once-ui/components";
 
 const person = {
-  firstName: "Selene",
-  lastName: "Yu",
+  firstName: "Joseph",
+  lastName: "Gatobu",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Design Engineer",
+  role: "Full-Stack Engineer",
   avatar: "/images/avatar.jpg",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  location: "Africa/Nairobi", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: ["English", "Swahili"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
@@ -29,12 +29,12 @@ const social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system/nextjs-starter",
+    link: "https://github.com/JosephGato",
   },
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
+    link: "https://www.linkedin.com/joseph muriuki/",
   },
   {
     name: "X",
@@ -44,7 +44,7 @@ const social = [
   {
     name: "Email",
     icon: "email",
-    link: "mailto:example@gmail.com",
+    link: "joseph.g.muriuki@gmail.com",
   },
 ];
 
@@ -52,11 +52,11 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Design engineer and builder</>,
+  headline: <>Full Stack Engineer and Developer</>,
   subline: (
     <>
-      I'm Selene, a design engineer at <InlineCode>FLY</InlineCode>, where I craft intuitive
-      <br /> user experiences. After hours, I build my own projects.
+      I'm Full-Stack Engineer specializing in software development and design, where I craft intuitive
+      user experiences.  <br /> After hours, I Coach and train in Web and Design Development.
     </>
   ),
 };
@@ -81,9 +81,14 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+       I am a Creative Technologist with a strong background in Information Technology, Software Development, 
+       and Graphic Design.
+       I am focused on developing web applications and building scalable IT infrastructures that enhance user 
+       experiences and business efficiency. My work extends beyond coding—I bring aesthetic precision 
+       and functional design into every project, ensuring that both form and function align perfectly.
+       Beyond my professional endeavors, I am passionate about mentorship, teaching, 
+       and empowering others in the tech space. My goal is to make an impact through education, innovation, 
+       and transformative digital solutions. 
       </>
     ),
   },
@@ -92,16 +97,16 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "LITALA PROPERTIES LTD",
+        timeframe: "2023 - Present",
+        role: "Full-Stack Senior Design Engineer and Graphic Designer",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
+            Redesigned the UI/UX for the organisations platform, resulting in a 20% increase in user
             engagement and 30% faster load times.
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
+            Spearheaded the integration of AI tools into design workflows, enabling clients to
             iterate 50% faster.
           </>,
         ],
@@ -116,17 +121,19 @@ const about = {
         ],
       },
       {
-        company: "Creativ3",
+        company: "MAJI MAZURI SCHOOL OF ICT",
         timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        role: "Trainer in Web Development and Graphic Design",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+            I have successfully trained and mentored aspiring developers and designers in Web Development 
+            and Graphic Design, equipping them with the skills to build functional, visually appealing, 
+            and user-friendly digital products. 
           </>,
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+            My approach focuses on hands-on learning, industry best practices, 
+            and real-world applications, ensuring my trainees gain both technical proficiency 
+            and creative problem-solving abilities.
           </>,
         ],
         images: [],
@@ -138,12 +145,12 @@ const about = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "JOMO KENYATTA UNIVERSITY OF AGRICULTURE & tECHNOLOGY",
+        description: <>Studied Bsc.Information Technology.</>,
       },
       {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "MERU NATIONAL POLYTECHNIC",
+        description: <>Studied Diploma in Software Programming and Development.</>,
       },
     ],
   },
@@ -152,8 +159,8 @@ const about = {
     title: "Technical skills",
     skills: [
       {
-        title: "Figma",
-        description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
+        title: "Adobe Package",
+        description: <>Able to work on all Adobe Packages with blend of creativity.</>,
         // optional: leave the array empty if you don't want to display images
         images: [
           {
