@@ -57,6 +57,39 @@ const home = {
     <>
       I'm Full-Stack Engineer specializing in software development and design, where I craft intuitive
       user experiences.  <br /> After hours, I Coach and train in Web and Design Development.
+
+      <div style={{ marginTop: "1rem" }}>
+      <a
+        href="https://drive.google.com/file/d/1ObwQU9wFGO0UIEdGNMFxcFFZGmMMpCLs/view?usp=drive_link"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="btn-new from-middle animated"
+      >
+        Download CV
+      </a>
+    </div>
+
+    <div style={{ marginTop: "1rem" }}>
+      <a
+        href="https://wa.me/254715232153?text=TuLink%20Whatsapp"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="whatsapp-button"
+        style={{
+          display: "inline-flex",
+          alignItems: "center",
+          gap: "8px",
+          textDecoration: "none",
+        }}
+      >
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+          alt="WhatsApp"
+          style={{ width: "24px", height: "24px" }}
+        />
+        TuLink Whatsapp
+      </a>
+    </div>
     </>
   ),
 };
