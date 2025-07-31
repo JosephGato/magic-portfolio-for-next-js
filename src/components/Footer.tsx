@@ -33,7 +33,7 @@ export const Footer = () => {
               style={{ marginLeft: "-0.125rem" }}
               href="https://wa.me/254715232153?text=TuLink%20Whatsapp"
             >
-              Once UI
+              Tap Tap
             </SmartLink>
           </Text>
         </Text>
@@ -49,7 +49,7 @@ export const Footer = () => {
                   size="s"
                   variant="ghost"
                 />
-              ),
+              )
           )}
         </Flex>
       </Flex>
